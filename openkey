@@ -1,0 +1,40 @@
+#!/bin/bash
+clear
+timeout 2s curl --http3 https://google.com
+check=$?
+case $check in
+6)
+	echo "Please wait until wifi is available again!"
+	exit
+esac
+slow() {
+        vb="$1"
+        for ((i=0; i < ${#vb}; i++))
+        do
+                printf "%s" "${vb:$i:1}"
+                sleep 0.01
+        done
+        printf "\n"
+}
+clear
+slow "
+Hello!, sorry but due to privacy and security, we will require a key to be able to use it
+You don't have the key?, contact zalo or message me!
+Join the group so we can help you: https://zalo.me/g/bncpsu040
+"
+read -p "Your Key: " key
+wget -O "$PREFIX/include/listkey" "https://raw.githubusercontent.com/thanhnhansexy/yeuem-/main/listkey" > /dev/null 2>&1
+check=$(cat $PREFIX/include/listkey | grep $key)
+if [ "$key" == "$check" ]
+then
+	tput setaf 50
+	slow "Load key successfully"
+	rm $PREFIX/include/listkey
+	echo "$check" > $PREFIX/include/key.txt
+	exit
+	rm $PREFIX/bin/openkey
+else
+	tput setaf 197
+	slow "Key does not exist, please try again later"
+	exit
+fi
