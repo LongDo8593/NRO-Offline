@@ -1,0 +1,10 @@
+#!/bin/bash
+check=$(cat "$PREFIX/include/key.txt" 2>/dev/null)
+if [ -n "$check" ]
+then
+	clear
+	java -jar -server $PREFIX/share/CustomServer/NroTea.jar
+else
+	echo "You must enter the key in the menu before running"
+	exit
+fi
