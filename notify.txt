@@ -1,0 +1,5 @@
+-Kính chào người dùng-
+
+ Nếu bạn đọc được dòng thông báo này thì mình xin cảm ơn vì bạn đã tải nro termux của mình!
+
+-End-
