@@ -1,2 +1,24 @@
-:
-echo "Không có update gì"
+clear
+if [ -e $PREFIX/include/version ]
+then
+	tput setaf 227
+	echo "Bạn đã update rồi!"
+	exit
+else
+	clear
+	tput setaf 227
+	echo "Xóa các gói không cần thiết!"
+	apt autoremove php php-apache2 -y
+	clear
+	echo "Cài đặt lại menu"
+	rm $PREFIX/bin/menu > /dev/null 2>&1
+	wget -O "$PREFIX/bin/menu" "https://github.com/thanhnhansexy/yeuem-/raw/main/menu" > /dev/null 2>&1
+	chmod +x $PREFIX/bin/menu > /dev/null 2>&1
+	clear
+	echo "Cài đặt a web server mod ( không qc )"
+	wget -O "/sdcard/mysql.apk" "https://github.com/thanhnhansexy/yeuem-/releases/download/Nh/com.mod.awebserver.http.web.server.apache.php.sql.vlliurona.lliurona.20.mod.apk.ads.removed20.apk" > /dev/null 2>&1
+	clear
+	echo "Update thành công"
+	echo "1" > $PREFIX/include/version
+fi
+fi
