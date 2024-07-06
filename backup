@@ -1,0 +1,5 @@
+while true
+do
+nohup mysqldump -u root --password="root" -h 127.0.0.1 --skip-ssl nhan > /sdcard/nhan.sql
+sleep 180s
+done
