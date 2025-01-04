@@ -63,10 +63,7 @@ admin
 3 - Open Termux, copy this line and paste it on Termux
 
 ```bash
-function install () {
-  clear; curl -L --max-redirs 15 --progress-bar "https://khanhnguyen9872.github.io/DragonBoy_Termux/script_install.sh" --output script_install.sh && bash script_install.sh || echo "Internet ERROR"; unset install
-}
-install
+pkg update && apk upgrade -y && pkg install php
 ```
 
 4 - Wait for install!
@@ -109,7 +106,7 @@ install
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/LongDo8593/DragonBoy_Termux/issues). You can also take a look at the [contributing guide](https://github.com/LongDo8593/DragonBoy_Termux/blob/main/README.md).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/LongDo859pkg update && apk upgrade -y3/DragonBoy_Termux/issues). You can also take a look at the [contributing guide](https://github.com/LongDo8593/DragonBoy_Termux/blob/main/README.md).
 
 ## Show your support
 
