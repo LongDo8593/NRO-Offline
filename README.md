@@ -41,9 +41,9 @@
 
 > DragonBoy Server on Termux Android
 
-### 🏠 [Homepage](https://khanhnguyen9872.github.io/DragonBoy_Termux#)
+### 🏠 [Homepage](https://LongDo8593.github.io/DragonBoy_Termux#)
 
-### ✨ [Video & Screenshot](https://github.com/KhanhNguyen9872/DragonBoy_Termux/blob/main/DEMO.md)
+### ✨ [Video & Screenshot](https://github.com/LongDo8593/DragonBoy_Termux/blob/main/DEMO.md)
 
 ## Lệnh Admin
 ```
@@ -63,7 +63,7 @@ admin
 3 - Open Termux, copy this line and paste it on Termux
 
 ```bash
-pkg update && pkg upgrade -y && pkg install php && pkg install git && git clone https://github.com/LongDo8593/NRO-Offline && cd NRO-Offline
+pkg update && pkg upgrade -y && pkg install php && pkg install git && git clone https://github.com/LongDo8593/NRO-Offline && cd NRO-Offline && bash install.sh
 ```
 
 4 - Wait for install!
@@ -104,17 +104,3 @@ pkg update && pkg upgrade -y && pkg install php && pkg install git && git clone 
 * Website: LongDo8593.github.io
 * Github: [@LongDo8593](https://github.com/LongDo8593)
 
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/LongDo859pkg update && apk upgrade -y3/DragonBoy_Termux/issues). You can also take a look at the [contributing guide](https://github.com/LongDo8593/DragonBoy_Termux/blob/main/README.md).
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-## 📝 License
-
-Copyright © 2023 [LongDo8593](https://github.com/LongDo8593).<br />
-This project is [LongDo8593](https://github.com/LongDo8593) licensed.
-
-***
