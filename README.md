@@ -2,6 +2,7 @@
  - Tối đa: 1 ID thiết bị
  - Thời hạn: Vĩnh viễn
  - Giá: 20k/1 Key
+ - Đang có free
 1. Chuyển khoản vào: mbbank hoặc momo
 2. Chụp hình bill đã chuyển và gửi qua Zalo: 
 3. Chờ tui online:>>>
