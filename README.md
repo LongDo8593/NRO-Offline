@@ -51,7 +51,7 @@ admin
 ```
 
 ## Install
- - Tutorial: [Youtube](https://youtu.be/U7bglM8Xwbs)
+ - Tutorial: [Youtube]
  
 1 - Download Termux APK (click on Picture): 
 <a href="https://khanhnguyen9872.github.io/DragonBoy_Termux/CONF_FILE/termux_0.118.apk" target="_blank">
@@ -104,12 +104,12 @@ install
 
 👤 **KhanhNguyen9872**
 
-* Website: KhanhNguyen9872.github.io
-* Github: [@KhanhNguyen9872](https://github.com/KhanhNguyen9872)
+* Website: LongDo8593.github.io
+* Github: [@LongDo8593](https://github.com/LongDo8593
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/KhanhNguyen9872/DragonBoy_Termux/issues). You can also take a look at the [contributing guide](https://github.com/KhanhNguyen9872/DragonBoy_Termux/blob/main/README.md).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/LongDo8593/DragonBoy_Termux/issues). You can also take a look at the [contributing guide](https://github.com/LongDo8593/DragonBoy_Termux/blob/main/README.md).
 
 ## Show your support
 
@@ -117,7 +117,7 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2023 [KhanhNguyen9872](https://github.com/KhanhNguyen9872).<br />
-This project is [KhanhNguyen9872](https://github.com/KhanhNguyen9872) licensed.
+Copyright © 2023 [LongDo8593](https://github.com/LongDo8593).<br />
+This project is [LongDo8593](https://github.com/LongDo8593) licensed.
 
 ***
