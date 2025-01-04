@@ -63,7 +63,7 @@ admin
 3 - Open Termux, copy this line and paste it on Termux
 
 ```bash
-pkg update && pkg upgrade -y && pkg install php && pkg install git && git clone https://github.com/LongDo8593/NRO-Offline.git && cd NRO-Offline
+pkg update && pkg upgrade -y && pkg install php && pkg install git && git clone https://github.com/LongDo8593/NRO-Offline && cd NRO-Offline
 ```
 
 4 - Wait for install!
