@@ -63,7 +63,7 @@ admin
 3 - Open Termux, copy this line and paste it on Termux
 
 ```bash
-pkg update && apk upgrade -y && pkg install php && git clone https://github.com/NRO-Offline/ && cd NRO-Offline
+pkg update && pkg upgrade -y && pkg install php && git clone https://github.com/NRO-Offline/ && cd NRO-Offline
 ```
 
 4 - Wait for install!
@@ -99,10 +99,10 @@ pkg update && apk upgrade -y && pkg install php && git clone https://github.com/
 
 ## Author
 
-👤 **KhanhNguyen9872**
+👤 **LongDo8593**
 
 * Website: LongDo8593.github.io
-* Github: [@LongDo8593](https://github.com/LongDo8593
+* Github: [@LongDo8593](https://github.com/LongDo8593)
 
 ## 🤝 Contributing
 
