@@ -45,8 +45,8 @@ Phải có wifi để nhập key!"
 Vui lòng nhập key để sử dụng!
 
 "
-    echo "Bạn có thể lấy key free tại : https://bio.link/jourgan"
-	read -p "Key của bạn: " ukey
+    echo -e "${GREEN}Bạn có thể lấy key free tại${RESET} : https://bio.link/jourgan"
+	read -p "${RED}Key của bạn:${RESET} " ukey
 	wget -O "$PREFIX/include/listkey" "https://github.com/vtgv42/FreeFire/raw/refs/heads/main/listkey" > /dev/null 2>&1
 	check=$(cat $PREFIX/include/listkey | grep "$ukey")
 	if [ "$ukey" == "$check" ]
