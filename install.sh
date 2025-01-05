@@ -51,33 +51,15 @@ then
 fi
 clear
 echo "
-
-
-                    ..',;;;;;;,'..
-               .':looooooooooooooool:'.
-            .,looooooooooooooooooooooool;.
-          .cooooooooooooooooooooooooooooooc.
-        .cooooooooooooooooooooooooooooooooool.
-       ,ooooooooooooooooooooooooooooodxdoooooo;
-      :ooooooooooooooooooooooooooooxXMMMKdoooooc
-     ;oooooooooooooooooooooooooookXMMMMMMMOooooo:
-    .ooooooooooooooooooooooooookNMMMMMMMMXdoooooo.
-    cooooooooooxdooooooooooookNMMMMMMMMKxooooooool
-    oooooooooOWMMXxooooooooONMMMMMMMMKdooooooooooo
-    oooooooxWMMMMMMXkooooOWMMMMMMMMKdooooooooooooo
-    loooooodKMMMMMMMMNk0WMMMMMMMW0dooooooooooooooo
-    'ooooooooxKMMMMMMMMMMMMMMMW0doooooooooooooooo;
-     oooooooooodKMMMMMMMMMMMW0doooooooooooooooooo
-      oooooooooood0WMMMMMMWOoooooooooooooooooooo.
-       ooooooooooood0WMMNOooooooooooooooooooooo.
-        coooooooooooodkxoooooooooooooooooooool
-          oooooooooooooooooooooooooooooooooo.
-            oooooooooooooooooooooooooooooo
-               oooooooooooooooooooooooo.
-                   oooooooooooooooo
-
-
-"
+\033[1;92m      __  __          _____
+ #     #    ####    #####  
+##    #    #   #   #     # 
+# #   #    #   #   #     # 
+#  #  #    ####    #     # 
+#   # #    #  #    #     # 
+#    ##    #   #   #     # 
+#     #    #    #   #####  
+ ";
 slow "Do you want to download our nro termux test version?"
 slow "Capacity to download support packages: "
 slow "| Java17 - 232 Mb"
