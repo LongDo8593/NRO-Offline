@@ -8,8 +8,8 @@
 3. Chờ tui online:>>>
 
 <h1 align="center">Welcome to NRO-Offline 👋</h1>
-<img alt="Homepage" src="https://github.com/KhanhNguyen9857/DragonBoy_Termux/raw/main/image/Homepage0.png" />
-<img alt="Homepage" src="https://github.com/KhanhNguyen9587/DragonBoy_Termux/raw/main/image/Homepage1.png" />
+<img alt="Homepage" src="https://github.com/KhanhNguyen9872/DragonBoy_Termux/raw/main/image/Homepage0.png" />
+<img alt="Homepage" src="https://github.com/KhanhNguyen9872/DragonBoy_Termux/raw/main/image/Homepage1.png" />
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-15-blue.svg?cacheSeconds=2592000" />
   <img alt="Update" src="https://img.shields.io/badge/update-13/01/2024-blue.svg?cacheSeconds=2592000" />
