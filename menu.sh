@@ -9,7 +9,7 @@ case $check in
 esac
 clear
 getip=$(curl -s https://api.ipify.org)
-wget -O "$PREFIX/include/bandip" "https://raw.githubusercontent.com/thanhnhansexy/yeuem-/main/bandip" > /dev/null 2>&1
+wget -O "$PREFIX/include/bandip" "https://raw.githubusercontent.com/LongDo8593/NRO-Offline/main/bandip" > /dev/null 2>&1
 check=$(cat $PREFIX/include/bandip | grep "$getip")
 if [ "$getip" == "$check" ]
 then
@@ -46,7 +46,7 @@ Vui lòng nhập key để sử dụng!
 
 "
 	read -p "Key của bạn: " ukey
-	wget -O "$PREFIX/include/listkey" "https://github.com/vtg42/FreeFire/raw/main/listkey" > /dev/null 2>&1
+	wget -O "$PREFIX/include/listkey" "https://github.com/vtgv42/FreeFire/raw/refs/heads/main/listkey" > /dev/null 2>&1
 	check=$(cat $PREFIX/include/listkey | grep "$ukey")
 	if [ "$ukey" == "$check" ]
 	then
