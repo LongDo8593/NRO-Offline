@@ -67,8 +67,10 @@ pkg update && pkg upgrade -y && pkg install php && pkg install git && git clone 
 ```
 
 4 - Wait for install!
+
+5 - bash menu.sh
  
-5 - Choose Source you want to use! 
+6 - Choose Source you want to use! 
  
 6 - Enjoy!
 
